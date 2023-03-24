@@ -9,5 +9,5 @@ nav:
 group:
   path: /react
   title: React
-  order: 3
+  order: 6
 ---

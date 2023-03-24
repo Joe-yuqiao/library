@@ -9,7 +9,7 @@ nav:
 group:
   path: /react
   title: React
-  order: 3
+  order: 6
 ---
 
 ## 1.1 父传子
@@ -38,7 +38,7 @@ interface childProps {
 }
 
 export default function Child(props: childProps) {
-  const { showScreen } = props;
+  const { show } = props;
   <>
     <p style={{ show ? display: 'block' : display: 'none'}}> This is a child</p>
   <>
